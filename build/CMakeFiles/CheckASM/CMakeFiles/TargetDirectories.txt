@@ -1,0 +1,2 @@
+/home/APSU/build/CMakeFiles/CheckASM/CMakeFiles/edit_cache.dir
+/home/APSU/build/CMakeFiles/CheckASM/CMakeFiles/rebuild_cache.dir

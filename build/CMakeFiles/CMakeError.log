@@ -1,0 +1,56 @@
+Performing C++ SOURCE FILE Test APSU_FOURQ_ARM64 failed with the following compile output:
+Change Dir: /home/APSU/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_71637/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_71637.dir/build.make CMakeFiles/cmTC_71637.dir/build
+gmake[1]: Entering directory '/home/APSU/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_71637.dir/src.cxx.o
+/usr/bin/c++ -DAPSU_FOURQ_ARM64  -fno-pic -Wno-deprecated-declarations -Xpreprocessor -fopenmp -pthread -O3 -fPIE  -fPIE -o CMakeFiles/cmTC_71637.dir/src.cxx.o -c /home/APSU/build/CMakeFiles/CMakeTmp/src.cxx
+/home/APSU/build/CMakeFiles/CMakeTmp/src.cxx:7:14: error: #error 
+    7 |             #error
+      |              ^~~~~
+gmake[1]: *** [CMakeFiles/cmTC_71637.dir/build.make:78: CMakeFiles/cmTC_71637.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/APSU/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_71637/fast] Error 2
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+        #if defined(__aarch64__)
+            int main() {
+                return 0;
+            }
+        #else
+            #error
+        #endif
+        
+Performing C++ SOURCE FILE Test APSU_FOURQ_ARM64 failed with the following compile output:
+Change Dir: /home/APSU/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8c004/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8c004.dir/build.make CMakeFiles/cmTC_8c004.dir/build
+gmake[1]: Entering directory '/home/APSU/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8c004.dir/src.cxx.o
+/usr/bin/c++ -DAPSU_FOURQ_ARM64  -fno-pic -Wno-deprecated-declarations -Xpreprocessor -fopenmp -pthread -O3 -fPIE  -fPIE -o CMakeFiles/cmTC_8c004.dir/src.cxx.o -c /home/APSU/build/CMakeFiles/CMakeTmp/src.cxx
+/home/APSU/build/CMakeFiles/CMakeTmp/src.cxx:7:14: error: #error 
+    7 |             #error
+      |              ^~~~~
+gmake[1]: *** [CMakeFiles/cmTC_8c004.dir/build.make:78: CMakeFiles/cmTC_8c004.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/APSU/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_8c004/fast] Error 2
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+        #if defined(__aarch64__)
+            int main() {
+                return 0;
+            }
+        #else
+            #error
+        #endif
+        
